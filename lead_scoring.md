@@ -221,21 +221,21 @@ Example:
 
 ## System Architecture
 
-Raw Data (WebEngage)
-↓
-Feature Pipeline (Hybrid Mapping + Processing)
-↓
-Temporal Aggregation (Multi-window Panel)
-↓
-Model Training (Balanced Random Forest)
-↓
-Prediction Scoring
-↓
-Ranking (Top-K Selection)
-↓
-Daily Excel Reports
-↓
-Future: CRM Integration
+Raw Data (WebEngage)  
+↓  
+Feature Pipeline (Hybrid Mapping + Processing)  
+↓  
+Temporal Aggregation (Multi-window Panel)  
+↓  
+Model Training (Balanced Random Forest)  
+↓  
+Prediction Scoring  
+↓  
+Ranking (Top-K Selection)  
+↓  
+Daily Excel Reports  
+↓  
+Future: CRM Integration  
 
 ---
 

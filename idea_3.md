@@ -288,6 +288,7 @@ Secondary:
 - Active learning loop for ML classifier improvement
 - Improved diarization for noisy audio environments
 - Vector-based retrieval layer for hybrid evaluation augmentation
+- Transcript caching layer for high-frequency call patterns to eliminate redundant ASR + LLM inference and reduce latency/cost
   
 ---
 

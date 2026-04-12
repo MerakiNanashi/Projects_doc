@@ -288,3 +288,9 @@ Secondary:
 - Active learning loop for ML classifier improvement
 - Improved diarization for noisy audio environments
 - Vector-based retrieval layer for hybrid evaluation augmentation
+  
+---
+
+## Disclaimer
+
+This repository represents a reconstructed version of work done in a professional setting. Sensitive data, internal APIs, and proprietary logic have been abstracted or omitted.

@@ -271,3 +271,9 @@ This system demonstrates how a traditional classification problem can be transfo
 By shifting focus from predictive accuracy to **resource-constrained optimization (Top-K selection)**, the system significantly improved business outcomes, capturing a larger share of high-intent users while operating under severe class imbalance and operational limitations.
 
 The key insight is that in production ML systems, **the best model is not the most accurate model, but the one best aligned with decision constraints**.
+
+---
+
+## Disclaimer
+
+This repository represents a reconstructed version of work done in a professional setting. Sensitive data, internal APIs, and proprietary logic have been abstracted or omitted.

@@ -21,21 +21,21 @@ Key design goals:
 ## System Architecture
 
 
-Audio Input
-↓
-Transcription (ASR + diarization + timestamps)
-↓
-Preprocessing (segmentation, filtering)
-↓
-Blank Call Detection (ML Ensemble)
-↓
-Regex-based Rule Engine
-↓
-LLM Evaluation (Structured Prompting + Schema Validation)
-↓
-Postprocessing (JSON parsing, flattening)
-↓
-Storage / Reporting
+Audio Input  
+↓  
+Transcription (ASR + diarization + timestamps)  
+↓  
+Preprocessing (segmentation, filtering)  
+↓  
+Blank Call Detection (ML Ensemble)  
+↓  
+Regex-based Rule Engine  
+↓  
+LLM Evaluation (Structured Prompting + Schema Validation)  
+↓  
+Postprocessing (JSON parsing, flattening)  
+↓  
+Storage / Reporting  
 
 
 ---

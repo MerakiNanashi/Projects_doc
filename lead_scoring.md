@@ -221,35 +221,21 @@ Example:
 
 ## System Architecture
 
-### 1. Data Ingestion
 Raw Data (WebEngage)
-
 ↓
-
-### 2. Feature Engineering
-- Feature Pipeline (Hybrid Mapping + Processing)  
-- Temporal Aggregation (Multi-window Panel)
-
+Feature Pipeline (Hybrid Mapping + Processing)
 ↓
-
-### 3. Model Layer
-- Model Training (Balanced Random Forest)  
-- Prediction Scoring
-
+Temporal Aggregation (Multi-window Panel)
 ↓
-
-### 4. Ranking Layer
-- Top-K Ranking (Lead Prioritization)
-
+Model Training (Balanced Random Forest)
 ↓
-
-### 5. Output Layer
-- Daily Excel Reports
- 
+Prediction Scoring
 ↓
-
-### 6. Future Work
-- CRM Integration
+Ranking (Top-K Selection)
+↓
+Daily Excel Reports
+↓
+Future: CRM Integration
 
 ---
 

@@ -224,29 +224,39 @@ Example:
 ### 1. Data Ingestion
 Raw Data (WebEngage)
 
-<div align="center">↓</div>
+| |
+|:--:|
+| ↓ |
 
 ### 2. Feature Engineering
 - Feature Pipeline (Hybrid Mapping + Processing)  
 - Temporal Aggregation (Multi-window Panel)
 
-<div align="center">↓</div>
+| |
+|:--:|
+| ↓ |
 
 ### 3. Model Layer
 - Model Training (Balanced Random Forest)  
 - Prediction Scoring  
 
-<div align="center">↓</div>
+| |
+|:--:|
+| ↓ |
 
 ### 4. Ranking Layer
 - Top-K Ranking (Lead Prioritization)
 
-<div align="center">↓</div>
+| |
+|:--:|
+| ↓ |
 
 ### 5. Output Layer
 - Daily Excel Reports  
 
-<div align="center">↓</div>
+| |
+|:--:|
+| ↓ |
 
 ### 6. Future Work
 - CRM Integration

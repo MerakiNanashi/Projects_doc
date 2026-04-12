@@ -78,12 +78,14 @@ The system predicts:
 
 ## 4.3 Model Strategy Decision
 
+## Model Strategy Decision
+
 | Model Type | Reason for Use | Outcome |
-|------------|---------------|---------|
-| Logistic Regression | Baseline interpretability | Weak under imbalance |
-| XGBoost | Strong non-linearity | Overfit instability |
-| Ensemble Models | High variance reduction | Complex, no marginal gain |
-| Balanced Random Forest | Stable + robust | Selected for production |
+|------------|----------------|---------|
+| Logistic Regression | Strong baseline with interpretability and probabilistic calibration | Performed well as a baseline but was limited by its linear decision boundary, unable to capture complex feature interactions |
+| XGBoost | High non-linearity modeling capability | Achieved strong training performance but showed instability and overfitting under extreme class imbalance (~0.02% positives) |
+| Ensemble Models (Voting/Stacking) | Reduce variance and improve robustness | Provided marginal gains over individual models with increased system complexity |
+| Balanced Random Forest | Designed for extreme class imbalance with better class balancing per tree | Selected for production due to stable recall performance and robust generalization under skewed distributions |
 
 ---
 
@@ -196,11 +198,11 @@ Instead of threshold-based classification, outputs were converted into:
 
 ## Business Impact
 
-- ~24% of all converters captured in Top 50 leads
-- Significant improvement in sales efficiency
-- Reduction in wasted outreach effort
-- Fully automated daily prioritization pipeline
-
+- Captured ~24% of all converters within Top 50 ranked leads under extreme class imbalance (~0.02% positive rate)
+- Estimated ~20–35% improvement in sales outreach efficiency by increasing concentration of high-intent leads in Top-K rankings  
+  - This estimate is derived by comparing converter density in Top-K vs baseline (random/heuristics ordering), rather than a controlled A/B test
+- Reduced wasted outreach by prioritizing high-probability leads within fixed sales bandwidth constraints
+- Delivered a fully automated daily lead prioritization pipeline integrated into sales workflows
 ---
 
 # 10. System Constraints & Tradeoffs

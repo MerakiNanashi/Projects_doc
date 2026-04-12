@@ -138,14 +138,14 @@ Predict optimal speed behavior under varying environmental and route conditions.
 
 ## Repository Structure (Abstracted)
 
-.
-├── data_ingestion/
-├── preprocessing/
-├── modeling/
-├── analysis/
-├── orchestration/
-├── notebooks/
-└── utils/
+.  
+├── data_ingestion/  
+├── preprocessing/  
+├── modeling/  
+├── analysis/  
+├── orchestration/  
+├── notebooks/  
+└── utils/  
 
 ---
 

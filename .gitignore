@@ -225,3 +225,6 @@ __marimo__/
 
 /lead_scoring/archive/*
 /lead_scoring/archive/
+
+/lead_scoring/asrc/models/
+/lead_scoring/asrc/models/*
